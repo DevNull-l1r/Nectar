@@ -2,7 +2,8 @@
 ## by Null
 
 ## What the heck is this?
-EXE Executor is a Linux app that allows you to run Windows Applications (.exe files) on, well, Linux /nThis app acts as a dashboard layer for Wine, while adding more features and performance tweaks
+EXE Executor is a Linux app that allows you to run Windows Applications (.exe files) on, well, Linux
+This app acts as a dashboard layer for Wine, while adding more features and performance tweaks
 
 ## What exactly does this app add to Wine?
 This app adds:
