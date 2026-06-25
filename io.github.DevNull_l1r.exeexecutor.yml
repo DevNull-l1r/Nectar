@@ -1,0 +1,23 @@
+id: io.github.DevNull_l1r.exeexecutor
+runtime: org.kde.Platform
+runtime-version: "6.6"
+sdk: org.kde.Sdk
+command: exe-executor
+
+finish-args:
+  - --share=irc
+  - --socket=x11
+  - --socket=wayland
+  - --socket=pulseaudio
+  - --filesystem=host
+  - --device=all
+
+modules:
+ - name: exe-executor
+   buildsystem: cmake-ninja
+   config-opts:
+     - -DCMAKE_BUILD_TYPE=Release
+   sources:
+     - type: git
+       url: https://github.com/DevNull-l1r/EXE-Executor
+       tag: main
