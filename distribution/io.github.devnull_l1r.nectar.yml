@@ -9,5 +9,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/DevNull-l1r/Nectar.git
-        commit: 6b755ff1639f467931f90653f6ed020ce88a2192
+        commit: 46befa16d656602e90d527b99d1d26e55a149265
         
