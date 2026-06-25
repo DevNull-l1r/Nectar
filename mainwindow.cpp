@@ -114,7 +114,8 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
 void MainWindow::initMenuMusic() {
     QString musicPath = "/app/share/exe-executor/themes/menu_theme.ogg";
     
-    if (!QSFileInfo::exists(musicPath)){
+    if (!QFileInfo::exists(musicPath)){
+    // Holy typo on the last commit 😭
         QString musicPath = "../resources/menu_theme.ogg";
     }
 
