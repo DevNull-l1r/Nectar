@@ -10,7 +10,7 @@
 #include <X11/Xlib.h>
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
-    setWindowTitle("EXE Executor // Home");
+    setWindowTitle("Nectar // Home");
     resize(640, 520);
 
     QString appDir = QCoreApplication::applicationDirPath();
@@ -48,7 +48,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
 
     QVBoxLayout *titleBlock = new QVBoxLayout();
     titleBlock->setSpacing(6);
-    QLabel *titleLabel = new QLabel("EXE EXECUTOR", this);
+    QLabel *titleLabel = new QLabel("NECTAR", this);
     titleLabel->setStyleSheet("font-size: 20px; font-weight: bold; color: #66FCF1; letter-spacing: 3px;");
     titleLabel->setAlignment(Qt::AlignCenter);
 
@@ -112,7 +112,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
 }
 
 void MainWindow::initMenuMusic() {
-    QString musicPath = "/app/share/exe-executor/themes/menu_theme.ogg";
+    QString musicPath = "/app/share/nectar/themes/menu_theme.ogg";
     
     if (!QFileInfo::exists(musicPath)){
     // Holy typo on the last commit 😭
