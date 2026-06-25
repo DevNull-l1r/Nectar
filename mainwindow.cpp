@@ -112,7 +112,11 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
 }
 
 void MainWindow::initMenuMusic() {
-    QString musicPath = "../resources/menu_theme.ogg";
+    QString musicPath = "/app/share/exe-executor/themes/menu_theme.ogg";
+    
+    if (!QSFileInfo::exists(musicPath)){
+        QString musicPath = "../resources/menu_theme.ogg";
+    }
 
     if (!QFileInfo::exists(musicPath)) {
         statusLabel->setText("[ Error: Music file not found; silent mode enabled ]");
