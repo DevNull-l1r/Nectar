@@ -45,5 +45,6 @@ This app also adds a slick cyan cyber-neon UI, and cool background music (made b
 ### Credits:
 * All code and development by Null
 * Background music made by Posifurg
+* Beta testing by Null, Stardust, and Posifurg
 
 > ... that's it
