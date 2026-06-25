@@ -116,7 +116,7 @@ void MainWindow::initMenuMusic() {
     
     if (!QFileInfo::exists(musicPath)){
     // Holy typo on the last commit 😭
-        QString musicPath = "../resources/menu_theme.ogg";
+        musicPath = "../resources/menu_theme.ogg";
     }
 
     if (!QFileInfo::exists(musicPath)) {
