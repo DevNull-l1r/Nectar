@@ -20,4 +20,15 @@ target_link_libraries(exe-executor PRIVATE
     X11
 )
 
+install(FILES distribution/io.github.devnull_l1r.exe_executor.desktop
+        DESTINATION share/applications)
 
+install(FILES distribution/io.github.devnull_l1r.exe_executor.metainfo.xml
+        DESTINATION share/metainfo)
+
+install(FILES resources/logo.png
+        DESTINATION share/icons/hicolor/256x256/apps
+        RENAME io.github.devnull_l1r.exe_executor.png) 
+
+install(FILES resources/menu_theme.ogg
+        DESTINATION share/exe-executor/themes)
