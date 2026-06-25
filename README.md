@@ -2,7 +2,7 @@
 ## by Null
 
 ## What the heck is this?
-* Nectar is a Linux app that allows you to run Windows Applications (.exe files) on, well, Linux
+* Nectar is a Linux app that allows you to run Windows Executable (.exe files) on, well, Linux
 * This app acts as a dashboard layer for Wine, while adding more features and performance tweaks
 
 ## What exactly does this app add to Wine?
