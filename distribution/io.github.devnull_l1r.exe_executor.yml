@@ -1,0 +1,13 @@
+id: io.github.devnull_l1r.exe_executor
+runtime: org.kde.Platform
+runtime-version: '6.6'
+sdk: org.kde.Sdk
+command: exe-executor
+modules:
+  - name: exe-executor
+    buildsystem: cmake
+    sources:
+      - type: git
+        url: https://github.com/DevNull-l1r/EXE-Executor.git
+        commit: 53877d9de7284a7f587dd3b434f2a2e174b198d1
+        
