@@ -48,7 +48,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
 
     QVBoxLayout *titleBlock = new QVBoxLayout();
     titleBlock->setSpacing(6);
-    QLabel *titleLabel = new QLabel(" NECTAR", this);
+    QLabel *titleLabel = new QLabel("NECTAR // EXE Executor", this);
     titleLabel->setStyleSheet("font-size: 20px; font-weight: bold; color: #66FCF1; letter-spacing: 3px;");
     titleLabel->setAlignment(Qt::AlignCenter);
 
