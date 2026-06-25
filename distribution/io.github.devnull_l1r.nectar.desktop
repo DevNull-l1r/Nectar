@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
-Name=EXE Executor
+Name=Nectar
 Comment=Run EXE files on Linux with ease
 Exec=exe-executor
-Icon=io.github.devnull_l1r.exe_executor
+Icon=io.github.devnull_l1r.nectar
 Terminal=false
 Categories=Utility;
