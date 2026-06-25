@@ -7,13 +7,13 @@
 
   <description>
     <p>
-        EXE Executor is an app that allows you to run Windows Applications (.exe) using Winetricks, adding a slick UI and a easier way to see real-time diagnostic and no more freezing.
+        Nectar is an app that allows you to run Windows Applications (.exe) on Linux using Winetricks, adding a slick UI and a easier way to see real-time diagnostic and no more freezing.
     </p>
   </description>
 
-  <launchable type="desktop-id">io.github.devnull_l1r.exe_executor.desktop</launchable>
+  <launchable type="desktop-id">io.github.devnull_l1r.nectar.desktop</launchable>
 
-  <url type="homepage">https://github.com/DevNull-l1r/EXE-Executor</url>
+  <url type="homepage">https://github.com/DevNull-l1r/Nectar</url>
 
   <provides>
     <binary>exe-executor</binary>
