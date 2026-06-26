@@ -2,21 +2,27 @@
 <component type="desktop-application">
   <id>io.github.devnull_l1r.nectar</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0-or-later</project_license> <name>Nectar</name>
-  <summary>Run Windows Executables easily!</summary>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Nectar</name>
+  <summary>Run Windows Executables with ease!</summary>
+  <developer_name>Null</developer_name>
 
   <description>
     <p>
-        Nectar is an app that allows you to run Windows Executables (.exe) on Linux using Winetricks, adding a slick UI and a easier way to see real-time diagnostics.
-        This app also fixes a lot of bugs and errors on Wine itself. While not better than Winetricks entirely yet, this app is still a work in progress and will be updated way more in the future!
+      Nectar is an application that allows you to run Windows Executables (.exe) on Linux using an optimized Wine runtime. It features a streamlined user interface and real-time terminal diagnostic logging.
+    </p>
+    <p>
+      By isolating applications and injecting high-performance environment optimizations like DXVK and thread synchronization, Nectar ensures smooth execution and debugging capabilities for modern utilities.
     </p>
   </description>
 
   <launchable type="desktop-id">io.github.devnull_l1r.nectar.desktop</launchable>
-
   <url type="homepage">https://github.com/DevNull-l1r/Nectar</url>
+  <url type="bugtracker">https://github.com/DevNull-l1r/Nectar/issues</url>
 
   <provides>
     <binary>nectar</binary>
   </provides>
+  
+  <content_rating type="oars-1.1" />
 </component>
