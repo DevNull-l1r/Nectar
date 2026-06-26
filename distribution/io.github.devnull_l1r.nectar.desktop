@@ -1,8 +1,9 @@
 [Desktop Entry]
 Type=Application
 Name=Nectar
-Comment=Run EXE files on Linux with ease
-Exec=nectar
+Comment=Run .exe files on Linux with ease
+Exec=nectar %f
 Icon=io.github.devnull_l1r.nectar
 Terminal=false
-Categories=Utility;
+Categories=Utility;System;Emulator;
+MimeType=application/x-ms-dos-executable;application/x-msdownload;application/x-executable;
