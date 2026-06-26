@@ -3,6 +3,21 @@ runtime: org.kde.Platform
 runtime-version: '6.6'
 sdk: org.kde.Sdk
 command: nectar
+
+sdk-extensions:
+  - org.freedesktop.Platform.Compat.Wine
+
+finish-args:
+  - --socket=wayland
+  - --socket=fallback-x11
+  - --device=dri
+  
+  - --filesystem=xdg-run/pipewire
+  - --socket=pulseaudio
+  
+  - --filesystem=host:ro
+  - --persist=.local/share/nectar
+
 modules:
   - name: nectar
     buildsystem: cmake
@@ -10,4 +25,4 @@ modules:
       - type: git
         url: https://github.com/DevNull-l1r/Nectar.git
         commit: 7e55f74ee6dec040de664d712e43b5cbf06a12b6
-        
+
